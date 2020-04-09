@@ -1,0 +1,55 @@
+body {
+    background-color: #002447;
+}
+
+#header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: whitesmoke;
+    color: #006666;
+    font-family: 'Cormorant', serif;
+    font-size: 20px;
+}
+
+#selfie {
+    display: flex;
+    border-radius: 50%;
+    max-width: 200px;
+    max-height: auto;
+}
+
+#selfieDiv {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+#github {
+    display: flex;
+    border-radius: 50%;
+    max-width: 64px;
+    max-height: auto;
+}
+
+#icons {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    align-items: center;
+}
+
+#liDiv {
+    display: flex;
+    background-color: whitesmoke;
+    max-width: fit-content;
+    max-height: fit-content;
+    border-radius: 5px;
+}
+
+#li {
+    display: flex;
+    max-width: 64px;
+    max-height: auto;
+}
+
